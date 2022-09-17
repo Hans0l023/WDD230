@@ -1,14 +1,3 @@
-try{
-  options ={
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric"
-  };
-  document.getElementById(
-    "currentdate2"
-  ).textContent = new Date().toLocaleDateString("en-US", options)
-  
-}catch (e) {
-  alert("Error")
-}
+new Date(2017, 3, 22, 5, 23, 50)
+
+document.write(new Date)

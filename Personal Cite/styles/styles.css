@@ -34,11 +34,12 @@
     font-size: x-large;
 }
 footer {
-    margin: .5rem;
+    text-align: center;
+    background-color:  rgb(2, 91, 36);
+    border-radius: 10px;
+    height: 100px;
 }
-span {
-    font-weight: 700;
-}
-#currentdate{
-    color: black;
+#java{
+    font-size: x-large;
+    padding-top: 35px;
 }
