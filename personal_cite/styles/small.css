@@ -13,13 +13,12 @@
     align-content: space-evenly;
     align-items: center;
     background-color: rgb(2, 91, 36);
-    border-radius: 10px;
+    font-size: medium;
 }
 .card-img {
-    height: 150px;
-    border-radius: 10px;
+    height: 150px; 
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
     margin: 25px;
 }
 #img {
@@ -31,15 +30,14 @@
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 1;
-    font-size: x-large;
+    font-size: medium;
 }
 footer {
     text-align: center;
     background-color:  rgb(2, 91, 36);
-    border-radius: 10px;
-    height: 100px;
+    height: 150px;
 }
 #java{
-    font-size: x-large;
+    font-size: medium;
     padding-top: 35px;
 }

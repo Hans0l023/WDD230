@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em) {
+    .card-img {
+        height: 150px;
+        border-radius: 10px;
+        border: solid;
+        border-width: 2px;
+        margin: 25px;
+    }
+
+    #hero {
+        border-radius: 10px;
+    }
+    .msg1 {
+        font-size: x-large;
+    }
+    footer {
+        border-radius: 10px;
+        height: 100px;
+    }
+    #java{
+        font-size: x-large;
+        padding-top: 35px;
+    }
+}
