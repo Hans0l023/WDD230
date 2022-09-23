@@ -22,7 +22,8 @@
         font-size: large;
     }
     #white_space{
-        grid-template-rows: length;
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
     footer {
         font-size: xx-large;
