@@ -5,6 +5,17 @@
         grid-template-columns: 1fr 1fr 1fr;
         
     }
+    #header{
+        font-size: xx-large;
+    }
+    #white_space{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    footer {
+        font-size: x-large;
+    }
    
+    
    
 }
