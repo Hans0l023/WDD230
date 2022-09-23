@@ -1,8 +1,7 @@
 @media only screen and (min-width: 32.5em) {
 
     #header{
-        height: 200px;
-        font-size: xx-large;
+        font-size: x-large;
         padding-top: 10px;
         border-radius: 10px; 
     }
@@ -26,10 +25,8 @@
         grid-column-end: 3;
     }
     footer {
-        font-size: xx-large;
-        margin: 10px;
+        font-size: large;
         border-radius: 10px;
-        padding-bottom: 15px;
     }
 }
 

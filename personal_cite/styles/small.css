@@ -35,9 +35,9 @@
 footer {
     text-align: center;
     background-color:  rgb(2, 91, 36);
-    height: 150px;
+    padding-bottom:10px;
 }
-#java{
-    font-size: medium;
-    padding-top: 35px;
-}
+
+
+
+
