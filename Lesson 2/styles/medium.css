@@ -1,0 +1,44 @@
+@media only screen and (min-width: 32.5em) {
+
+    #header{
+        height: 200px;
+        font-size: xx-large;
+        padding-top: 10px;
+        border-radius: 10px; 
+    }
+
+    #content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    h2{
+        font-weight: 200;
+        padding: 10px;
+        font-size: large;
+    }
+    .link{
+        margin-top: 10px;
+        font-size: large;
+    }
+    #white_space{
+        grid-template-rows: length;
+    }
+    footer {
+        font-size: xx-large;
+        margin: 10px;
+        border-radius: 10px;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    

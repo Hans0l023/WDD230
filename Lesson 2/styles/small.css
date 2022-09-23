@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron&display=swap');
+
+body{
+    font-family: 'Orbitron', 'Montserrat';
+
+}
+#header{
+    background-color: rgb(2, 91, 36);
+    text-align: center;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content{
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.card_img {
+    max-width: 95%;
+    border: solid;
+    border-width: 1px;
+}
+h2{
+    background-color: rgb(2, 91, 36);
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 5px;
+    border-radius: 10px; 
+    margin-top: -1px;
+}
+.link{
+    margin-top: 5px;
+    font-size: medium;
+    font-weight: 100;
+}
+#hicks_law, #parc_contrast, #white_space {
+    background-color: gray;
+    justify-content: center;
+    border-width: 20px;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+}
+footer {
+    text-align: center;
+    font-size: medium;
+    background-color:  rgb(2, 91, 36);
+    color: white;
+    padding-bottom: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
