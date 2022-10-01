@@ -21,4 +21,7 @@
         font-size: x-large;
         padding-top: 35px;
     }
+    body {
+        margin:10px;
+    }
 }

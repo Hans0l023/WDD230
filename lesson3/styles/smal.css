@@ -1,0 +1,52 @@
+
+
+header {
+    background-color: rgb(42, 114, 196);
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+header h1{
+    font-size: small;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(49, 196, 141);
+    
+}
+nav a{
+    height: 15px;
+    margin: 1em;
+    font-size: .9em;
+    text-decoration: none;
+}
+nav a:hover {
+	background-color: rgb(42, 114, 196);
+	color: peru;
+}
+
+footer {
+    padding: .5em;
+    text-align: center;
+    background-color: rgb(49, 196, 141);
+}
+
+/*class selectors*/
+.card-img {
+    max-width: 150px;
+    padding: .5em;
+
+    
+}
+.content h2{
+    font-size: small;
+    text-align: center;
+    font-weight: 50;
+}

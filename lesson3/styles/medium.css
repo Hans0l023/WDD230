@@ -1,0 +1,46 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        margin: .5em;
+        border-radius: 10px;
+        flex-direction: row;
+    }
+    header h1{
+        font-size: 2em;
+        
+    }
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 10px;
+        margin: .5em;
+        font-size: 1.5em;
+        padding: .5em;
+
+    }
+    footer{
+        margin: .5em;
+        border-radius: 10px;
+        font-size: 1.4em;
+    }
+
+
+    /*class selectors*/
+    .card-img{
+        max-width: 250px;
+        border-radius: 1.5em;
+    }
+    .content h2{
+        padding:2em;
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 65.5em) {
+    nav{
+        font-size: 2em;
+    }
+    /*class selectors*/
+    .car-img{
+        max-width: 400px;
+    }
+}
