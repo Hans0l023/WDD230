@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-body{
+html{
     font-family: "Roboto Condensed";
 }
 header {
@@ -56,18 +56,6 @@ nav ul.open{display: block;}
 #hamburger_button span:nth-child(1){display: block;}
 #hamburger_button span:nth-child(2){display: none;}
 
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     display: flex;
     flex-flow: column;
@@ -97,15 +85,12 @@ footer {
 /*id selectors*/
 #java {
     font-size: small;
-    font-family: "Roboto Condensed";
 }
 #date{
     font-size: small;
-    font-family: "Roboto Condensed";
     text-align: center;
 }
 #info{
     font-size: small;
-    font-family: "Roboto Condensed";
     text-align: center;
 }
