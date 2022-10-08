@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    font-family: "Roboto Condensed";
+}
+header {
+    background-color: rgb(42, 114, 196);
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+header h1{
+    font-size: small;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: rgb(49, 196, 141);
+    
+}
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+    
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,.5);
+}
+nav ul li.active a{
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,.3);
+}
+
+nav ul{display: none;}
+nav ul.open{display: block;}
+
+#hamburger_button span:nth-child(1){display: block;}
+#hamburger_button span:nth-child(2){display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    text-align: center;
+    background-color: rgb(49, 196, 141);
+}
+
+/*class selectors*/
+.card-img {
+    max-width: 200px;
+    padding: .5em;
+}
+.img{
+    max-width: 75px;
+}
+.content {
+    font-size: .75em;
+    text-align: center;
+    font-weight: 50;
+    border: solid #333;
+    background-color: rgb(145, 142, 142);
+}
+
+/*id selectors*/
+#java {
+    font-size: small;
+    font-family: "Roboto Condensed";
+}
+#date{
+    font-size: small;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+#info{
+    font-size: small;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
