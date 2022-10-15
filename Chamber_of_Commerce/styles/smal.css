@@ -67,6 +67,19 @@ footer {
 }
 
 /*class selectors*/
+.title{
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color:rgb(145, 142, 142);
+    margin: 0;
+}
+.img1{
+    padding-top: 5px;
+    padding-left: 5px;
+    max-width: 3rem;
+    float: left;
+}
 .card-img {
     max-width: 200px;
     padding: .5em;
@@ -75,6 +88,7 @@ footer {
     max-width: 75px;
 }
 .content {
+    margin: 0;
     font-size: .75em;
     text-align: center;
     font-weight: 50;
@@ -83,6 +97,9 @@ footer {
 }
 
 /*id selectors*/
+#select{
+    row-gap: 5px;
+}
 #java {
     font-size: small;
 }
@@ -91,6 +108,10 @@ footer {
     text-align: center;
 }
 #info{
+    font-size: small;
+    text-align: center;
+}
+#msg4 {
     font-size: small;
     text-align: center;
 }
