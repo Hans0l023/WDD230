@@ -95,6 +95,9 @@ footer {
     border: solid #333;
     background-color: rgb(145, 142, 142);
 }
+.banner-image{
+    justify-self: center;
+}
 
 /*id selectors*/
 #select{
