@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    min-width: 50px;
+    border: 1px solid red;
+}
