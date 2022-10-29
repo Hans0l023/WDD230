@@ -60,6 +60,6 @@ images.forEach((image) => {
 
 if (day === 'Monday'){
     greeting = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-}else if (day === 'Friday'){
+}else if (day === 'Tuesday'){
     greeting = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }
