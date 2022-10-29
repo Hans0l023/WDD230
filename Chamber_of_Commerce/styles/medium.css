@@ -21,8 +21,6 @@
     }
 
     footer{
-        margin: .5em;
-        border-radius: 10px;
         font-size: 1.4em;
     }
 
@@ -67,6 +65,25 @@
         grid-row: 2/3;
         grid-column: 2/4
     }
+    /* Discover page */
+    /* id selectors */
+    #dizcover_pictures{
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: rgb(145, 142, 142);
+        row-gap: 10px;
+    }
+    
+    /* class selectors */
+    .msg1{
+        padding-right: 4%;
+        font-size: 2em;
+    }
+    
+
+
 }
 
 @media only screen and (min-width: 65.5em) {

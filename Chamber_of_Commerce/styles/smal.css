@@ -118,3 +118,17 @@ footer {
     font-size: small;
     text-align: center;
 }
+
+/* Discover page */
+
+/* class selectors */
+
+
+/* id selectors */
+#dizcover_pictures{
+    background-color: rgb(145, 142, 142);
+    text-align: center;
+}
+#img:hover{
+    background-color: #555;
+}
