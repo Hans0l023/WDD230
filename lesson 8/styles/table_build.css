@@ -23,7 +23,7 @@ caption {
 	font-size: .85rem;
 }
 
-tr:first-child th, .highlight {
+tr:first-child th {
 	background-color: var(--back);
 	color: var(--forelight);
 }
