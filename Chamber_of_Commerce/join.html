@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/smal.css"> 
+    <link rel="stylesheet" href="styles/medium.css"> 
+    <title>Chamber of Commerce</title>
+</head>
+<header>
+    <img class="card-img" src="images/buckeye_lake.png" alt="Buckeye Lake Logo">
+    <span id="date"></span>
+    <h1>Join Us!</h1>
+</header>
+<nav>
+    <button id="hamburger_button"><span></span>&#9776</span></button></button>
+    <ul id="primary_nav">
+        <li ><a href="index.html">Home</a></li>
+	    <li><a href="target_audience.html">Target Audience</a></li>
+	    <li><a href="color_scheme.html">Color-Scheme</a></li>
+	    <li class="active"><a href="join.html">Join</a></li>
+    </ul>
+</nav>
+<body>
+    <section class="content">
+      <h5 id="thanks"> </h5>
+        <form action="/my-handling-form-page" >
+            <ul>
+                <form id='feedback' action="/my-handling-form-page" >
+                    <ul>
+                     <li>
+                       <label for="fname">First Name*:</label>
+                       <input type="text" id="fname" placeholder="John" name="f_user_name" required/>
+                     </li>
+                     <li>
+                        <label for="lname">Last Name*:</label>
+                        <input type="text" id="lname" placeholder="Smith" name="l_user_name" required/>
+                      </li>
+                      <li>
+                        <label for="position_title">Position Title:</label>
+                        <input type="text" id="position_title" placeholder="Owner" name="position_title" />
+                      </li>
+                     <li>
+                       <label for="mail">E-mail*:</label>
+                       <input type="email" id="mail" placeholder="john.smith@email.com" name="user_email" required/>
+                     </li>
+                     <li>
+                        <label for="business">Business Name*:</label>
+                        <input type="email" id="business" placeholder="Smithers" name="business" required/>
+                      </li>
+                     <li>
+                        <label for="cell_number">Cell Phone*:</label>
+                        <input type="tel" id="cell_number"  name="cell_number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+                      </li>
+                      <li>
+                        <label id="membership">Membership level*:</label><br>
+                        
+                        <input type="radio" id="non_profit" name="membership" value="non_profit">
+                        <label for="non_profit">Non Profit</label><br>                     
+                        
+                        <input type="radio" id="bronze" name="membership" value="bronze">
+                        <label for="bronze">Bronze</label><br>
+                        
+                        <input type="radio" id="silver" name="membership" value="silver">
+                        <label for="silver">Silver</label><br>
+                        
+                        <input type="radio" id="gold" name="membership" value="gold">
+                        <label for="gold">Gold</label><br>
+                      </li>
+                     <li>
+                       <label for="msg">Discription:</label>
+                       <textarea id="msg" placeholder="Describe your business here" name="user_message"></textarea>
+                     </li>
+                     <li>
+                        <button id="button" type="reset">Join Us!</button>
+                    </li>
+                
+                  
+               </ul>
+          </form>   
+    </section>
+    
+</body>
+<footer>
+    <section id="java" ><script src="scripts/java.js"></script></section>
+</footer>
+</html>

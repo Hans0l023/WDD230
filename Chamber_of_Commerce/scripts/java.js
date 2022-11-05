@@ -63,3 +63,8 @@ if (day === 'Monday'){
 }else if (day === 'Tuesday'){
     greeting = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }
+let thanks =[]
+const thanks_you = function (){
+    return document.getElementById('thanks').innerHTMl = 'Thank you '+ formElement.business.value +'! For joining our Community page';
+}
+document.getElementById('button').addEventListener('click', thanks_you)
