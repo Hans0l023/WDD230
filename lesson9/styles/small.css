@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron&display=swap');
+
+body{
+    font-family: 'Orbitron';
+}
+
+header, footer{
+ background-color: rgb(2, 91, 36);
+ justify-content: center;
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+}
+
+footer{
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.cards{ 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    text-align: center;
+    font-size: 1rem;
+
+}
+section {
+    background-color: burlywood;
+    border: solid 1px black;
+}
+img{
+padding-bottom: .5rem;
+padding-top: .5rem;
+}
