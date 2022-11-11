@@ -13,7 +13,7 @@
         "address": "4595 Walnut Rd. Suite P Buckeye Lake, Ohio 43008",
         "phone_number": "(740) 929-4487" ,
         "website_url": "https://whitscustard.com/locations/tag/Buckeye+Lake",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/whits.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/whits.jpg" ,
         "membership_level": "Bronze"
       },
       {
@@ -21,7 +21,7 @@
         "address": "4729 Walnut Rd, Buckeye Lake, OH 43008",
         "phone_number": "(740) 929-1998" ,
         "website_url": "https://www.buckeyelakehistory.org/",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/blhs.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/blhs.jpg" ,
         "membership_level": "Non-Profit"
       },
       {
@@ -29,7 +29,7 @@
         "address": "5176 Walnut Rd, Buckeye Lake, OH 43008",
         "phone_number": "(740) 535-6225" ,
         "website_url": "https://www.buckeyelakebrewery.com/home",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/blb.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/blb.jpg" ,
         "membership_level": "Silver"
       },
       {
@@ -37,7 +37,7 @@
         "address": "5171 N Bank Rd, Buckeye Lake, OH 43008",
         "phone_number": "(740) 822-0079" ,
         "website_url": "http://boatyardatbuckeyelake.com/",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/dips.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/dips.jpg" ,
         "membership_level": "Bronze"
       },
       {
@@ -45,7 +45,7 @@
         "address": "5030 Walnut Rd, Heath, OH 43056",
         "phone_number": "(740) 310-5056" ,
         "website_url": "https://www.hagerautomotivegroup.com/",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/hager.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/hager.jpg" ,
         "membership_level": "gold"
       },
       {
@@ -53,7 +53,7 @@
         "address": "4592 Walnut Rd, Buckeye Lake, OH 43008",
         "phone_number": "(740) 928-1144" ,
         "website_url": "https://www.pizzacottagebuckeyelake.com/",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/pizzaCottage.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/pizzaCottage.jpg" ,
         "membership_level": "Silver"
       },
       {
@@ -61,7 +61,7 @@
         "address": "11356 Avondale Rd, Thornville, OH 43076",
         "phone_number": "(740) 928-2667" ,
         "website_url": "https://papaboos.com/",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/papaBoo.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/papaBoo.jpg" ,
         "membership_level": "gold"
       },
       {
@@ -69,7 +69,7 @@
         "address": "10055 Sunfish Ln, Thornville, OH 43076",
         "phone_number": "(740) 527-2326" ,
         "website_url": "https://waterfrontbl.com/",
-        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/images/wobl.jpg" ,
+        "imageurl": "http://127.0.0.1:5500/Chamber_of_Commerce/images/wobl.jpg" ,
         "membership_level": "Silver"
       }
     ]

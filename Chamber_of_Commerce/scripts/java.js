@@ -68,7 +68,7 @@ const thanks_you = function (){
     return document.getElementById('thanks').innerHTMl = 'Thank you '+ formElement.business.value +'! For joining our Community page';
 }
 
-const requestURL = href='data.json';
+const requestURL = 'https://hans0l023.github.io/WDD230/Chamber_of_Commerce/scripts/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
