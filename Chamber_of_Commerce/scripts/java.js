@@ -87,15 +87,19 @@ function displaycompanies(company) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
+    let address = document.createElement('h4');
+    let phone_number = document.createElement('h4');
+    let website_url = document.createElement('h4');
+    let membership_level = document.createElement('h4');
     let imageurl = document.createElement('img');
-    let address = document.createElement('span');
-    let phone_number = document.createElement('span');
   
     // Change the textContent property of the h2 element to contain the company's full name
     h2.textContent = `${company.name} `;
-    address.textContent = `Located at: ${company.address} `;
-    phone_number.textContent= `Number: ${company.phone_number} `;
-  
+    address.textContent = `${company.address} \n`;
+    phone_number.textContent= `Number: ${company.phone_number}  \n`;
+    website_url.textContent= `${company.website_url} \n`;
+    membership_level.textContent= `Membership Level: ${company.membership_level} \n`;
+    
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     imageurl.setAttribute('src', company.imageurl);
     imageurl.setAttribute('alt', `${company.name}  - ${company.order}`);
@@ -103,9 +107,11 @@ function displaycompanies(company) {
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
+    card.appendChild(imageurl);
     card.appendChild(address);
     card.appendChild(phone_number);
-    card.appendChild(imageurl);
+    card.appendChild(website_url);
+    card.appendChild(membership_level);
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);

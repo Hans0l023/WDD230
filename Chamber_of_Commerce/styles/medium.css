@@ -91,7 +91,20 @@
      
       input, textarea {
         width: 400px;
+
       }
+        /* Directory*/
+    img{
+        max-width: 250px;
+    }
+    /* class*/
+    .cards{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        font-size: medium;
+    }
+    /*id selecto*/
 
 
 }
@@ -139,6 +152,15 @@
         grid-row: 2/3;
     }
     #java {
+        font-size: large;
+    }
+             /* Directory*/
+     img{
+        max-width: 400px;
+    }
+    /* class*/
+    .cards{ 
+        grid-template-columns: repeat(3, 1fr);
         font-size: large;
     }
    
