@@ -122,6 +122,8 @@ function displaycompanies(company) {
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const windspeed = document.querySelector('#windspeed');
+const windChillTag = document.querySelector('windchill');
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Hebron&units=imperial&appid=48ed0199203b4a96290775c99a2c9813'
 
@@ -149,6 +151,7 @@ function capitalize(string) {
 
 function displayResults(data) {
     currentTemp.innerHTML = `<strong>${data.main.temp.toFixed(0)}</strong>`;
+    windspeed.innerHTML = `${data.wind.speed.toFixed(2)}`;
 
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const desc = data.weather[0].description;
@@ -156,4 +159,8 @@ function displayResults(data) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    let windChill = calculateWindChill(data.main.temp, data.wind.speed);
+    windChillTag.innerHTML = windChill.toFixed(0);
 }
+
+

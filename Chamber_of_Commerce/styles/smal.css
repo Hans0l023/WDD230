@@ -9,6 +9,7 @@ header {
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin-bottom: 1rem;
     
 }
 header h1{
@@ -18,7 +19,7 @@ header h1{
 }
 
 nav {
-    background-color: rgb(49, 196, 141);
+    background-color: rgb(217, 158, 32);
     
 }
 nav button{
@@ -57,13 +58,14 @@ nav ul.open{display: block;}
 #hamburger_button span:nth-child(2){display: none;}
 
 footer {
+    margin-top: 10px;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     padding: .5em;
     text-align: center;
-    background-color: rgb(49, 196, 141);
+    background-color: rgb(217, 158, 32);
 }
 
 /*class selectors*/
@@ -89,22 +91,24 @@ footer {
 }
 .content {
     margin: 0;
+    padding: 1rem;
     font-size: .75em;
     text-align: center;
     font-weight: 50;
-    border: solid #333;
     background-color: rgb(145, 142, 142);
 }
-.banner-image{
+.spotlightimg{
     justify-self: center;
 }
 
 /*id selectors*/
 #java{
-    background-color: rgb(49, 196, 141);
+    background-color: rgb(217, 158, 32);
     border: none;
 }
 #select{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     row-gap: 5px;
     background-color: #555;
 }
@@ -120,6 +124,28 @@ footer {
     text-align: center;
     font-size: 1rem;
 }
+#spotlight{
+    text-align: center;
+    background-color: rgb(145, 142, 142);
+    font-size: .75rem;
+    
+}
+#button{
+    background-color: rgb(217, 158, 32);
+
+}
+#hero{
+    background-color: rgb(145, 142, 142);
+
+}
+#event{
+    background-color: rgb(145, 142, 142);
+
+}
+#news{
+    background-color: rgb(145, 142, 142);
+
+}
 #weather-icon{
     max-width: 100px;
 
@@ -132,7 +158,9 @@ footer {
     font-size: small;
     text-align: center;
 }
-
+#info{
+    border: none;
+}
 /* Discover page */
 
 /* class selectors */
@@ -211,7 +239,7 @@ section  {
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 10px;
-    background-color: rgb(49, 196, 141);
+    background-color: rgb(217, 158, 32);
     border: solid 1px black;
 
 }
