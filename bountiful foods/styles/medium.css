@@ -1,0 +1,65 @@
+@media only screen and (min-width: 32.5em) {
+    nav, header, #weather, footer{
+        grid-column: 1/3;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+    nav ul li a {
+        border: none;
+    }
+    nav button{
+        display: none;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* class selector */
+
+    /*id selectors*/
+    #index{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    #weather figure{
+        margin: 0;
+        
+    }
+    #fresh{
+        text-align: center;
+    }
+
+    /*fresh*/
+
+    /* class selector */
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    /*id selectors*/
+}
+
+
+
+@media only screen and (min-width: 65.5em) {
+    nav ul li a {
+        padding: .5rem, 1rem;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

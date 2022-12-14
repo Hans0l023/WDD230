@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+
+    <link rel="icon" href="favicon_bountiful_foods.ico">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="card-img" src="images/bountiful_foods_logo_400.png" alt="Bountiful Foods Logo">
+        <h1 class="msg">Bountiful Foods</h1>
+    </header>
+    <nav>
+        <button id="hamburger_button"><span></span>&#9776</span></button></button>
+        <ul id="primary_nav">
+            <li ><a href="index.html">Home</a></li>
+            <li class="active"><a href="fresh.html">Fresh</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <form id='order' action="/my-handling-form-page" >
+        <ul>
+         <li>
+           <label for="fname">First Name*:</label><br>
+           <input type="text" id="fname" placeholder="John" name="f_user_name" required />
+         </li>
+         <li>
+           <label for="mail">E-mail*:</label><br>
+           <input type="email" id="mail" placeholder="john.smith@email.com" name="user_email" required/>
+         </li>
+         <li>
+            <label for="cell_number">Cell Phone*:</label><br>
+            <input type="tel" id="cell_number"  name="cell_number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+         </li>
+         <li>
+            <label for="selection">First Ingredient*:</label><br>
+            <select name="ingredients" id="ingredients" >
+                <option value="">--Select One--</option>
+            </select>
+         </li>
+         <li>
+            <label for="selection">Second Ingredient*:</label><br>
+            <select name="ingredients" id="ingredients" >
+                <option value="">--Select One--</option>
+            </select>
+         </li>
+         <li>
+            <label for="selection">Third Ingredient*:</label><br>
+            <select name="ingredients" id="ingredients" >
+                <option value="">--Select One--</option>
+            </select>
+         </li>
+         
+         <li>
+          <label for="instructions">Special Instructions:</label><br>
+          <textarea id="msg" name="user_message"></textarea>
+         </li>
+         <li>
+            <button id="button" type="reset" onclick="populateSelect()">Submit Order!</button>
+         </li>
+        </ul>
+    </form>
+        
+      
+    <section id='facts'class="content">
+        <div class="cards"></div><br>
+        
+    </section>
+    
+</body>
+<footer id="footer">
+    <p>Come follow us on our social media pages</p>
+    <section id="contact_us">
+        <div id="social">
+            <a id="facebook" href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a id="twitter" href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a id="instagram" href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        
+    </section>
+
+</footer>
+
+<script src='scripts/scripts.js'></script>
+</html>
